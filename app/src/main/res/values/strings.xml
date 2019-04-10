@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TryProjectUI</string>
+    <string name="open_drawer">Open the navigtion drawer</string>
+    <string name="close_drawer">Close the navigation drawer</string>
+</resources>

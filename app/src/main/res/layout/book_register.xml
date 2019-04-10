@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/book_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="30dp">
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/book_submit"
+        android:layout_alignRight="@+id/book_submit"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-25dp"
+        android:layout_marginRight="-25dp"
+        android:scaleX="1.5"
+        android:text="X"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Btitle_lay"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:id="@+id/book_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/Bid_lay"
+            android:layout_alignLeft="@+id/Bid_lay"
+            android:layout_alignTop="@+id/Bid_lay"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Book Title"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Bauthor_lay"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp">
+
+        <EditText
+            android:id="@+id/book_author"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Book Author"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Bid_lay"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="245dp">
+
+        <EditText
+            android:id="@+id/book_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Book ID"
+            android:inputType="number"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="16sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/book_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Bid_lay"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/oval_button_alter"
+        android:onClick="book_submit"
+        android:text="Submit"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

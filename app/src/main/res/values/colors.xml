@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#dd49dde7</color>
+    <color name="colorPrimaryDark">#7993e7</color>
+    <color name="colorAccent">#d10076</color>
+    <color name="colorControlHighlight">#dd49dde7</color>
+
+    <color name="laternative">#0279d7</color>
+    <color name="ash">#e8e8e8</color>
+    <color name="ash2">#f0f0f0</color>
+
+    <color name="gradientStart">#4fffed</color>
+    <color name="gradientEnd">#47baf8</color>
+
+    <color name="buttonColor">#4f5ad4</color>
+    <color name="colorPrimaryLight">#eb3e8adc</color>
+    <color name="pop_up_top_backgd">#dd49dde7</color>
+</resources>

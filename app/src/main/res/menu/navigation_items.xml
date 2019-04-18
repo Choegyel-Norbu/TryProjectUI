@@ -21,7 +21,7 @@
                 android:title="Phone"
                 android:icon="@drawable/ic_contact"/>
             <item android:id="@+id/facebook"
-                android:title="Facebook"
+                android:title="Socila contact"
                 android:icon="@drawable/ic_cheers"/>
         </menu>
     </item>
